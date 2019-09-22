@@ -17,14 +17,15 @@
 	align-items: center;
 	justify-content: space-between;
 }
-.header .logo {
-	margin-left: 280px;
- }
-.header .header-right {
-margin-right: 280px;
+.header > .logo {
+	width: 10%;
+	margin-left: 100px;
+}
+.header > .header-right {
+	width: 90%;
+	text-align: center;
 }
 .header .header-right > a {
-	display: inline-block;
 	padding: 10px;
 	color: #868686;
 	font-size: 14px;
@@ -37,8 +38,11 @@ margin-right: 280px;
 	background-color: #ffbb42;
 }
 .header .header-right > a + a {
-	margin-left: 10px;
+	margin-left: 5px;
 }
+
+/*Style of block1*/
+
 .block1 {
 	position: relative;
 	width: 100%;
@@ -64,7 +68,9 @@ margin-right: 280px;
 
 }
 .block1 > .form {
+	max-width: 100%;
 	margin-top: 30px;
+	text-align: center;
 }
 .block1 > .form > input {
 	width: 280px;
@@ -88,6 +94,7 @@ margin-right: 280px;
 .block1 > .form > .submit1 {
 	padding: 0;
 	width: 210px;
+
 	background-color: #ffbb42;
 	color: #fff;
 }
@@ -796,6 +803,8 @@ margin-right: 280px;
 }
 .block7 > .cont2 {
 	margin-top: 40px;
+	width: 100%;
+	text-align: center;
 }
 .block7 > .cont2 > .name {
 	background: url(../images/input-icon-1.png) no-repeat scroll 3% 50%;
