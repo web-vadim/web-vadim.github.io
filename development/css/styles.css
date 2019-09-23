@@ -1,0 +1,795 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+/*Style of Block1 top*/
+
+.block1 {
+	width: 100%;
+	height: 800;
+}
+.block1 > .top {
+	height: 120px;
+}
+.block1 > .top > .logo {
+	height: 100%;
+	float: left;
+	color: #212121;
+	font-size: 25px;
+	font-weight: 700;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	margin-left: 120px;
+}
+.block1 > .top > .cont {
+	height: 100%;
+	float: right;
+	margin-right: 120px;
+	padding-right: 50px;
+	background: url(../images/icon-search.png) no-repeat center right;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.block1 > .top >.cont > a {
+	font-family: "Open Sans - Semibold";
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #212121;
+	font-weight: 400;
+}
+.block1 > .top >.cont > a + a {
+	margin-left: 30px;
+}
+
+/*Style of Block1 Bottom*/
+
+.block1 > .bottom {
+	width: 100%;
+	height: 680px;
+	background: #000 url(../images/bg-block1.png) no-repeat 100% 100%;
+	background-size: 100% 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block1 > .bottom > .top {
+	color: #ffffff;
+	font-size: 60px;
+	letter-spacing: 3px;
+	margin-top: 180px;
+}
+.block1 > .bottom > .middle {
+	color: #ffffff;
+	font-size: 22px;
+	letter-spacing: 1.1px;
+	margin-top: 30px;
+}
+.block1 > .bottom > .bottom {
+	margin-top: 110px;
+
+}
+.block1 > .bottom > .bottom > a {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 30px 50px;
+	border: 3px solid #f8f8f8;
+}
+.block1 > .bottom > .bottom > button {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 30px 50px;
+	background-color: #00897b;
+	border-color: #00897b;
+	margin-left: 20px;
+}.block1 > .bottom > a {
+	margin-top: 100px;
+}
+
+/*------------ Style of Block2 ------------*/
+.block2 {
+	width: 100%;
+	height: 670px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block2 > .top {
+	color: #212121;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 125px;
+}
+.block2 > .middle {
+	color: #212121;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	margin-top: 35px;
+	text-align: center;
+}
+.block2 > .bottom {
+	width: 100%;
+	margin-top: 125px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.block2 > .bottom > div + div {
+	margin-left: 145px;
+}
+.block2 > .bottom > div {
+	width: 33.3333%;
+	max-width: 250px;
+	float: left;
+	text-align: center;
+}
+.block2 > .bottom > div > h2 {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	color: #212121;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.block2 > .bottom > div > span {
+	color: #212121;
+	font-size: 15px;
+	letter-spacing: 0.75px;
+}
+
+/*------------ Style of Block3 ------------*/
+.block3 {
+	width: 100%;
+	height: 1400px;
+	background-color: #e4fdf9;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block3 > h1 {
+	color: #212121;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 170px;
+}
+.block3 > span {
+	color: #212121;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	margin-top: 35px;
+	text-align: center;
+}
+.block3 > .cont {
+	width: 80%;
+	margin: auto;
+	margin-top: 110px;
+}
+.block3 > .cont > div  {
+	width: 31.33%;
+	height: 440px;
+	float: left;
+	margin: 1% 1%;
+	background: #fff url(../images/block3.1.png) no-repeat center 15%;
+	padding-top: 150px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block3 > .cont > div > h1 {
+	margin: 0px;
+	color: #212121;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.block3 > .cont > div > span {
+	width: 270px;
+	margin-top: 26px;
+	color: #212121;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.75px;
+	text-align: center;
+}
+.block3 > .cont > div > a {
+	margin-top: 30px;
+	padding: 20px 15px;
+	border: 2px solid #212121;
+	color: #212121;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.block3 > .cont > div:hover {
+	background: #00897b url(../images/block3.1white.png) no-repeat center 15%;
+}
+.block3 > .cont > div:hover h1 {
+	color: #fff;
+}
+.block3 > .cont > div:hover span {
+	color: #fff;
+}
+.block3 > .cont > div:hover a {
+	border-color: #fff;
+	color: #fff;
+}
+
+/*------------ Style of Block4 ------------*/
+
+.block4 {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block4 > h1 {
+	color: #212121;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 120px;
+}
+.block4 > p {
+	color: #212121;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	text-align: center;
+	margin-top: 35px;
+}
+.block4 > .menu {
+	margin-top: 110px;
+}
+.block4 > .menu > a {
+	padding: 20px 30px;
+	border: 2px solid #00897b;
+	color: #212121;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.block4 > .menu > a + a {
+	margin-left: 20px;
+}
+.block4 > .menu > a:hover {
+	background-color: #00897b;
+	border: none;
+	color: #fff;
+}
+.block4 > .cont {
+	width: 84%;
+	margin-top: 120px;
+}
+.block4 > .cont > div {
+	background: #000 url(../images/bg1.png) no-repeat 100% 100%;
+	width: 31.3333%;
+	height: 370px;
+	float: left;
+	margin: 1%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block4 > .cont > div > h3 {
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.block4 > .cont > div > span {
+	color: #ffffff;
+	font-size: 15px;
+	letter-spacing: 0.75px;
+}
+.block4 > .cont > div > img {
+	max-width: 100%;
+}
+.block4 > a {
+	margin-top: 130px;
+	padding: 25px 60px;
+	background-color: #00897b;
+	color: #fff;
+	margin-bottom: 160px;
+}
+
+/*------------ Style of Block5 ------------*/
+
+
+.block5 {
+	width: 100%;
+	height: 1140px;
+	background-color: #f0f0f0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block5 > h1 {
+	color: #212121;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.block5 > span {
+	color: #212121;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+}
+.block5 > .cont {
+	width: 80%;
+	margin-top: 125px;
+}
+.block5 > .cont > div {
+	float: left;
+	width: 31.3333%;
+	height: 667px;
+	margin: 1%;
+	background: #fff url(../images/bg-block5.png) no-repeat center top;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block5 > .cont > div > h3 {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1.25px;
+	margin-top: 50px;
+}
+.block5 > .cont > div > .q1 {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 2.5px;
+	margin-top: 40px;
+}
+.block5 > .cont > div > .q1 > .q2 {
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 1.25px;
+	vertical-align: 15px;
+	margin-right: 3px;
+}
+.block5 > .cont > div > .q1 > .q3 {
+	font-size: 17px;
+	vertical-align: 3px;
+	letter-spacing: 0.85px;
+}
+.block5 > .cont > div > .middle {
+	margin-top: 80px;
+	height: 250px;
+	
+}
+.block5 > .cont > div > .middle > div + div {
+	margin-top: 10px;
+}
+.block5 > .cont > div > .middle > div {
+	padding: 15px 30px;
+	border-bottom: 1px solid #dfdfdf;
+	color: #212121;
+	font-size: 17px;
+	font-weight: 300;
+	letter-spacing: 0.85px;
+	text-align: center;
+}
+.block5 > .cont > div > input {
+	margin-top: 40px;
+	padding: 20px 30px;
+	border: 2px solid #000000;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.block5 > .cont > div > input:hover {
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #00897b;
+}
+
+/*------------ Style of Block6 ------------*/
+
+.block6 {
+	width: 100%;
+	text-align: center;
+}
+.block6 > h1 {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 120px;
+}
+.block6 > p {
+	font-size: 15px;
+	letter-spacing: 0.75px;
+	margin-top: 35px;
+}
+.block6 > .cont {
+	width: 90%;
+	margin: auto;
+	margin-top: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.block6 > .cont > div  {
+	float: left;
+	margin: 1%;
+}
+.block6 > .cont > div > h3 {
+	margin-top: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.block6 > .cont > div > p {
+	margin-top: 10px;
+	font-size: 15px;
+	letter-spacing: 0.75px;
+}
+.block6 > .cont > div > .contact {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.block6 > .cont > div > .contact > a {
+	width: 50px;
+	height: 50px;
+	background-color: #f0f1f1;
+	border-radius: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block6 > .cont > div > .contact > a + a {
+	margin-left: 20px;
+}
+.block6 > .cont > div > .contact > a:hover > img {
+	filter: brightness(2);
+}
+.block6 > .cont > div > .contact > a:hover {
+	background: #3949ab;
+}
+.block6 > .pointer {
+	width: 100%;
+	margin: 120px 0;
+}
+.block6 > .pointer > a {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #00897b;
+	margin-left: 5px;
+}
+.block6 > .pointer > a:hover {
+	background-color: #3949ab;
+}
+
+/*------------ Style of Block7 ------------*/
+
+.block7 {
+	width: 100%;
+	background-color: #e4fdf9;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block7 > h1 {
+	margin-top: 125px;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+.block7 > p {
+	margin-top: 30px;
+	margin-bottom: 125px;
+	font-size: 15px;
+	letter-spacing: 0.75px;
+}
+.block7 > .main {
+	width: 90%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.block7 > .main > div {
+	width: calc(50% - 30px);
+	float: left;
+	position: relative;
+}
+.block7 > .main > div > img {
+	width: 100%;
+}
+.block7 > .main > div + div {
+	margin-left: 30px;
+}
+.block7 > .main > .main2 {
+	padding: 60px 30px;
+}
+.block7 > .main > .main2 > h3 > a {
+	color: #212121;
+	font-size: 25px;
+	letter-spacing: 1.25px;
+}
+.block7 > .main > .main2 > h3 > a:hover {
+	color: #00897b;
+
+}
+.block7 > .main > .main2 > .date {
+	float: left;
+	margin-top: 30px;
+	padding-left: 30px;
+	background: url(../images/icon-date.png) no-repeat left center;
+}
+.block7 > .main > .main2 > .dev {
+	margin-top: 30px;
+	margin-left: 40px;
+	float: left;
+	padding-left: 30px;
+	background: url(../images/icon-dev.png) no-repeat left center;
+}
+.block7 > .main > .main2 > span {
+	display: inline-block;
+	margin-top: 30px;
+}
+.block7 > input {
+	width: 220px;
+	height: 70px;
+	background-color: #00897b;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 125px 0;
+}
+
+/*------------ Style of Block8 ------------*/
+
+.block8:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: ' ';
+	width: inherit;
+	height: inherit;
+	background: #000 url(../images/rawpixel-com-252127.jpg.png) no-repeat center center;
+	background-size: 130% 100%;
+	filter: opacity(.1);
+}
+.block8 {
+	position: relative;
+	width: 100%;
+	height: 1250px;
+	background-color: #202120;
+	padding: 0 185px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.block8 > h1 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin-top: 130px;
+}
+.block8 > span {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	margin-top: 35px;
+	text-align: center;
+}
+.block8 > .maincontact {
+	width: 100%;
+	margin-top: 100px;
+}
+.block8 > .maincontact > div {
+	width: 31.3334%;
+	margin: 1%;
+	float: left;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.block8 > .maincontact > div > span {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 40px;
+}
+.block8 > .maincontact > div > div {
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	background-color: #3949ab;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block8 > .forma {
+	z-index: 1;
+	margin-top: 85px;
+}
+.block8 > .forma > form > input[type="text"], input[type="email"] {
+	width: 500px;
+	height: 84px;
+	border: none;
+	border-radius: 10px;
+	color: #212121;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.block8 > .forma > form > textarea {
+	width: 100%;
+	height: 320px;
+	margin-top: 30px;
+	color: #212121;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 30px 0 0 20px;
+	border-radius: 10px;
+}
+.block8 > .forma > form > input[type="submit"] {
+	background-color: #ffffff;
+	padding: 28px 85px;
+	border-radius: 10px;
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 40px;
+	float: right;
+}
+
+/*------------ Style of Footer ------------*/
+
+.footer {
+	color: #212121;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 22px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
