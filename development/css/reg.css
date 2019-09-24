@@ -1,0 +1,89 @@
+body {
+	background: url(../desktop-2.jpg) no-repeat;
+	background-size: 100%;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+}
+.container {
+	width: 450px;
+	background-color: rgb(24, 33, 52, 0.7);
+	margin: 250px auto 0 auto;
+	text-align: center;
+	box-shadow: 0 -5px 0 #3adbfd;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 20px;
+}
+
+.container img {
+	width: 120px;
+	height: 120px;
+	margin: -60px 0 30px 0;
+	border: 5px solid #000;
+	border-radius: 50%;
+	box-shadow: 0 -5px 0 #3adbfd;
+
+}
+
+
+input[type="text"], input[type="password"] {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 40px;
+}
+.dws-input:before {
+	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+	font-weight: 900;
+	content: '\f007';
+	position: absolute;
+	font-size: 30px;
+	padding: 12px 0 0 7px;
+}
+.dws-input:nth-child(2):before {
+	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+	font-weight: 900;
+	content: '\f023';
+	position: absolute;
+	font-size: 30px;
+	padding: 12px 0 0 7px;
+}
+.dws-input:hover::before {
+	color: #319ebc;
+	transition: all 0.3s;
+}
+.dws-input input:hover {
+	box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}
+input[type="submit"] {
+	padding: 13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 18px;
+	color: #fff;
+	background-color: #2ca8c6;
+	border: none;
+	border-bottom: 4px solid #6eedfd;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	transition: all 0.5s;
+	background-color: #fff;
+	color: gray;
+}
+.social i {
+	color: #fff;
+	font-size: 20px;
+	width: 20px;
+	padding: 10px;
+}
+.social i:hover {
+	background-color: #fff;
+	color: gray;
+	border-radius: 5px;
+	cursor: pointer;
+}
