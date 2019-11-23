@@ -20,6 +20,7 @@ header {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	padding-bottom: 10px;
 }
 .header__logo {
 	text-transform: uppercase;
@@ -44,6 +45,8 @@ nav {
 }
 .topnav a:hover {
 	border-bottom: 3px solid #fcac45;
+
+
 }
 .topnav .icon {
 	display: none;
@@ -61,6 +64,7 @@ main .main__welcome {
 	background: #000;
 	text-align: center;
 	padding: 210px 0 420px 0;
+
 }
 main .main__welcome p {
 	color: #999999;
