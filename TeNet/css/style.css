@@ -22,7 +22,7 @@ p.wr {
     margin-top: 8px;
 }
 .content-block-first {
-    background: url(../TeNet/images/main-bg-font-1.png);
+    background: url(../images/main-bg-font-1.png);
     padding-top: 20px;
     color: #ffffff;
 }
@@ -141,7 +141,7 @@ p.wr {
     align-items: center;
 }
 .block-fourth {
-    background: url(../TeNet/images/bg-02.png) no-repeat;
+    background: url(../images/bg-02.png) no-repeat;
     background-size: cover;
     padding: 120px 0;
 }
@@ -189,7 +189,7 @@ p.wr {
     margin-top: 20px;
 }
 .block-fifth .col-right ul li {
-    list-style: url(../TeNet/images/block5.2.png);
+    list-style: url(../images/block5.2.png);
     padding-left: 10px;
     font-size: 16px;
     font-weight: 300;
