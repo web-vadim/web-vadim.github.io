@@ -22,7 +22,7 @@ p.wr {
     margin-top: 8px;
 }
 .content-block-first {
-    background: url(/images/main-bg-font-1.png);
+    background: url(../images/main-bg-font-1.png);
     padding-top: 20px;
     color: #ffffff;
 }
