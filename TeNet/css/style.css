@@ -22,7 +22,8 @@ p.wr {
     margin-top: 8px;
 }
 .content-block-first {
-    background: url(../images/main-bg-font-1.png);
+    /* background: url(../images/main-bg-font-1.png); */
+    background-color: #003cbf;
     padding-top: 20px;
     color: #ffffff;
 }
@@ -244,7 +245,7 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     
     
     .content-block-first .cont-right {
