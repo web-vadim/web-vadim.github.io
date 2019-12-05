@@ -1,6 +1,6 @@
 body {
     background-color: #d7d7d7;
-    overflow-x: hidden;
+
 }
 .display-1-white {
     color: #fff;
@@ -313,7 +313,7 @@ ul li+li {
 .font-block-7 {
     margin-top: 20px;
     background-color: #f6f6f6;
-    padding: 0;
+    padding-left: 0;
 }
 
 
@@ -351,7 +351,10 @@ ul li+li {
     font-size: 14px;
     font-weight: 400;
 }
+
 .font-block-7 .col-right {
+
+
     background: url(../images/img7.0.png) top center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
