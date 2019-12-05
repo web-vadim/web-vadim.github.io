@@ -224,7 +224,7 @@ ul li+li {
 }
 .slide-1, .slide-4, .slide-7 {
     height: 260px;
-    background: url(/images/img5.1.png) no-repeat center center;
+    background: url(../images/img5.1.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -234,7 +234,7 @@ ul li+li {
 }
 .slide-2, .slide-5, .slide-8 {
     height: 260px;
-    background: url(/images/img5.2.png) no-repeat center center;
+    background: url(../images/img5.2.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -244,7 +244,7 @@ ul li+li {
 }
 .slide-3, .slide-6, .slide-9 {
     height: 260px;
-    background: url(/images/img5.3.png) no-repeat center center;
+    background: url(../images/img5.3.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -351,7 +351,7 @@ ul li+li {
     font-weight: 400;
 }
 .font-block-7 .col-right {
-    background: url(/images/img7.0.png) top center no-repeat;
+    background: url(../images/img7.0.png) top center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -445,16 +445,15 @@ ul li+li {
 .font-block-9 {
     height: 458px;
     margin-top: 20px;
-    background: url(/images/map.png) top center no-repeat;
+    background: url(../images/map.png) top center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .font-block-10 {
     margin-top: 20px;
-    background: url(/images/bg-font-10.png) top center no-repeat;
+    background: url(../images/bg-font-10.png) top center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -469,7 +468,7 @@ ul li+li {
     max-width: 680px;
     min-height: 450px;
     margin: auto;
-    background: url(/images/img-10.png) center center no-repeat;
+    background: url(../images/img-10.png) center center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -478,7 +477,6 @@ ul li+li {
 .font-block-10 div img {
     cursor: pointer;
 }
-
 .font-block-11 {
     margin-top: 20px;
     background-color: #f6f6f6;
@@ -501,7 +499,6 @@ ul li+li {
     font-weight: 400;
     margin-top: 45px;
 }
-
 .font-block-12 {
     margin-top: 20px;
     background-color: #f6f6f6;
@@ -538,12 +535,6 @@ ul li+li {
 .font-block-12 .col-right .socials a {
     margin-right: 30px;
 }
-
-
-
-
-
-
 .font-block-13 {
     background-color: #f6f6f6;
     margin-bottom: 20px;
@@ -562,45 +553,6 @@ footer div {
 footer div p {
     margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and  (max-width: 1200px) {
     .font-block-3 .col-left {
@@ -637,7 +589,6 @@ footer div p {
 }
 
 
-
 @media screen and  (max-width: 990px) {
    
     .font-block-4 {
@@ -656,8 +607,6 @@ footer div p {
     .font-block-5 .slide-2, .slide-3, .slide-4, .slide-6, .slide-7, .slide-8 {
         display: none;
     }
-
-
     .font-block-5 .prev {
         position: absolute;
         left: 0%;
@@ -675,24 +624,19 @@ footer div p {
     .font-block-6 .col-right button {
         margin-top: 30px;
     }
-
     .font-block-7 form {
         padding: 30px 0 0 0;
     }
     .font-block-7 form p {
         margin-bottom: 30px;
     }
-    
-    
     .font-block-10 div {
         width: 550px;
 
     }
-
     .font-block-11 .col-right .display-1-grey {
         margin-top: 0;
     }
-
     .font-block-12 .col-right {
         padding-left: 0px;
         margin-top: 50px;
@@ -701,10 +645,7 @@ footer div p {
         text-align: center;
     }
 
-
 }
-
-
 
 
 @media screen and (max-width: 800px) {
@@ -735,21 +676,17 @@ footer div p {
         position: absolute;
         right: -3%;
     }
-
     .font-block-5 .slide-1, .slide-5, .slide-9 {
         text-align: center;
         max-width: 400px;
         margin: auto;
     }
-  
     .font-block-7 form {
         padding: 30px 50px;
     }
-
     .font-block-8 .col-left {
         padding: 0;
     }
-
     .font-block-11 {
         text-align: center;
         padding-bottom: 30px;
@@ -762,11 +699,7 @@ footer div p {
 }
 
 
-
-
 @media screen and (max-width: 600px) {
-
-
 
     .font-block-10 div {
         width: 450px;
@@ -782,6 +715,4 @@ footer div p {
     .font-block-10 div {
         width: 350px;
     }
-
-
 }
