@@ -638,7 +638,7 @@ footer div p {
         margin-top: 0;
     }
     .font-block-12 .col-right {
-        padding-left: 0px;
+        padding-left: 0;
         margin-top: 50px;
     }
     .font-block-12 {
@@ -707,12 +707,72 @@ footer div p {
 
     .display-1-white, .display-1-grey {
         font-size: 34px;
+        line-height: 50px;
     }
 
 }
 
 @media screen and (max-width: 500px) {
+    .cont-1 {
+        padding: 50px 0;
+    }
+    .font-block-2 {
+        padding: 50px 0;
+    }
+    .font-block-3 .col-left {
+        padding: 50px 10px 0 10px;
+        text-align: center;
+    }
+    .font-block-3 .col-right .inner .item img {
+        height: 400px;
+    }
+    .font-block-6 {
+        padding: 50px 0;
+    }
+    .font-block-7 form {
+        padding: 30px 0;
+    }
+    .font-block-7 form input {
+        padding-left: 10px;
+    }
+    .font-block-8 .header .right-menu .dropdown-toggle {
+        width: 120px;
+        margin-left: 10px;
+    }
+    .font-block-8 .header .right-menu .post {
+        width: 120px;
+        margin-left: 10px;
+    }
+    .font-block-8 .col-left .img-left {
+        float: left;
+        margin-right: 0;
+    }
+    .font-block-8 .col-left {
+        padding-left: 0px;
+        padding-right: 10px;
+        border-right: 2px solid #e2e2e2;
+        margin: 20px 0px 20px 0;
+        text-align: center;
+    }
+    .font-block-8 .col-right {
+        padding: 25px 0 25px 10px;
+    }
     .font-block-10 div {
         width: 350px;
+    }
+    .font-block-12 {
+        padding-top: 50px;
+    }
+    .font-block-12 .col-right input {
+        margin-left: 10px;
+    }
+    .font-block-12 .col-right button {
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .font-block-12 .col-right .socials {
+
+        padding-left: 40px;
+
     }
 }
