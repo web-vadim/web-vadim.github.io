@@ -1,5 +1,7 @@
 body {
-    background-color: #d7d7d7;
+    /* background-color: #d7d7d7; */
+    background-color: #000;
+    overflow-x: hidden;
 
 }
 .display-1-white {
@@ -128,7 +130,8 @@ ul li+li {
     background: url(../images/font-block-2.png) no-repeat;
     background-size: cover;
     margin-top: 20px;
-    padding: 180px 0;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .font-block-3 {
@@ -558,6 +561,16 @@ footer div p {
     margin-left: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
 @media screen and  (max-width: 1200px) {
     .font-block-3 .col-left {
         text-align: center;
@@ -662,11 +675,9 @@ footer div p {
     .font-block-2 {
         text-align: center;
     }
-    .font-block-2 .cont-3 {
-        padding: 180;
-    }
+    
     .font-block-2 .cont-2 input {
-     margin: 5px 0;
+        margin: 5px 0;
     }
     .font-block-2 .cont-2 button {
         margin-top: 5px;
@@ -721,7 +732,8 @@ footer div p {
         padding: 50px 0;
     }
     .font-block-2 {
-        padding: 50px 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .font-block-3 .col-left {
         padding: 50px 10px 0 10px;
