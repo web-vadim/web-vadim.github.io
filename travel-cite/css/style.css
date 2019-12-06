@@ -1,3 +1,10 @@
+
+
+
+
+------------------------
+
+
 body {
     background-color: #d7d7d7;
 
@@ -76,7 +83,102 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
+ 
+ /* Стилизация рейтинговых звёзд */
 
+ .rating-group {
+    display: inline-flex;
+    vertical-align: -3px;
+  }
+  /* make hover effect work properly in IE */
+  .rating__icon {
+    pointer-events: none;
+  }
+  
+  /* hide radio inputs */
+  .rating__input {
+   position: absolute !important;
+   left: -9999px !important;
+  }
+  
+  /* hide 'none' input from screenreaders */
+  .rating__input--none {
+    display: none
+  }
+
+  /* set icon padding and size */
+  .rating__label {
+    cursor: pointer;
+    padding: 0 1px;
+    font-size: 18px;
+  }
+  
+  /* set default star color */
+  .rating__icon--star {
+    color: orange;
+  }
+  /* if any input is checked, make its following siblings grey */
+  .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  /* make hovered input's following siblings grey on hover */
+  .rating__input:hover ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  
+     /* Стилизация полу-звёзд */
+
+ #rate .rating-group {
+    display: inline-flex;
+    max-width: 125px;
+  }
+  /* make hover effect work properly in IE */
+  #rate .rating__icon {
+    pointer-events: none;
+  }
+  /* hide radio inputs */
+  #rate .rating__input {
+   position: absolute !important;
+   left: -9999px !important;
+  }
+  /* set icon padding and size */
+  #rate .rating__label {
+    cursor: pointer;
+    /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
+    padding: 0 3px;
+    font-size: 16px;
+  }
+  /* add padding and positioning to half star labels */
+  #rate .rating__label--half {
+    width: 9px;
+    padding-left: 0;
+    z-index: 2;
+    margin-right: -12px;
+
+  }
+  /* set default star color */
+  #rate .rating__icon--star {
+    color:orange;
+
+  }
+  /* if any input is checked, make its following siblings grey */
+  #rate .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  /* make all stars orange on rating group hover */
+  #rate .rating-group:hover .rating__label .rating__icon--star {
+       color: orange;
+  }
+  #rate .rating-group:hover .rating__label--half .rating__icon--star {
+    color: orange;
+  } 
+  /* make hovered input's following siblings grey on hover */
+  #rate .rating__input:hover ~ .rating__label .rating__icon--star {
+      color: #ddd;
+  }
+  #rate .rating__input:hover ~ .rating__label--half .rating__icon--star {
+    color: #ddd;
+  }
 
 nav {
     background-color: #fff;
@@ -603,6 +705,9 @@ footer div p {
     .font-block-7 form {
         padding: 60px 0px 60px 30px;
     }
+
+
+
 }
 
 
@@ -764,12 +869,25 @@ footer div p {
         margin-right: 0;
     }
     .font-block-8 .col-left {
-        padding-left: 0px;
+        padding-left: 0;
         padding-right: 10px;
         border-right: 2px solid #e2e2e2;
+
         margin: 20px 0px 20px 0;
         text-align: center;
     }
+    #rate .rating__label {
+        cursor: pointer;
+        /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
+        padding: 0 2px;
+        font-size: 16px;
+      }
+      /* add padding and positioning to half star labels */
+      #rate .rating__label--half {
+        width: 4.5%;
+        z-index: 2;
+        margin-right: -6px;
+      }
     .font-block-8 .col-right {
         padding: 25px 0 25px 10px;
     }
@@ -791,4 +909,20 @@ footer div p {
         padding-left: 40px;
 
     }
+}
+
+
+@media screen and (max-width: 480px) {
+    #rate .rating__label {
+        cursor: pointer;
+        /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
+        padding: 0 1px;
+        font-size: 16px;
+      }
+      /* add padding and positioning to half star labels */
+      #rate .rating__label--half {
+        width: 4.5%;
+        z-index: 2;
+        margin-right: -6px;
+      }
 }
