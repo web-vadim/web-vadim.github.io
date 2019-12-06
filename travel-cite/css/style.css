@@ -1,15 +1,5 @@
-
-
-
-
-------------------------
-
-
 body {
     background-color: #d7d7d7;
-
-
-
 }
 .display-1-white {
     color: #fff;
@@ -117,6 +107,10 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
   .rating__icon--star {
     color: orange;
   }
+    /* make all stars orange on rating group hover */
+    .rating-group:hover .rating__label .rating__icon--star {
+        color: orange;
+      }
   /* if any input is checked, make its following siblings grey */
   .rating__input:checked ~ .rating__label .rating__icon--star {
     color: #ddd;
