@@ -112,7 +112,6 @@ input:-ms-input-placeholder {text-overflow:ellipsis;}
     padding: 0 1px;
     font-size: 18px;
   }
-  
   /* set default star color */
   .rating__icon--star {
     color: orange;
@@ -920,13 +919,28 @@ footer div p {
     #rate .rating__label {
         cursor: pointer;
         /* if you change the left/right padding, update the margin-right property of .rating__label--half as well. */
-        padding: 0 1px;
+        padding: 0 0px;
         font-size: 16px;
       }
       /* add padding and positioning to half star labels */
       #rate .rating__label--half {
         width: 4.5%;
         z-index: 2;
-        margin-right: -6px;
+        margin-right: -5px;
+      }
+      .font-block-8 {
+
+          padding-left: 0;
+          padding-right: 0;
+      }
+      .font-block-8 .col-left {
+          padding-right: 0;
+
+      }
+      
+      #rate .rating-group {
+        justify-content: center;
+        width: 100%;
+        min-width: 90px;
       }
 }
