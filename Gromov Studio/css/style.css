@@ -989,9 +989,10 @@ body {
     }
     .contact__form a {
         font-size: 30px;
+        padding: 10px;
     }
     .contact__form {
-        max-width: 180px;
+        max-width: 200px;
     }
 }
 
