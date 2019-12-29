@@ -1320,8 +1320,8 @@ body {
 
 
 .formModal {
-    /* display: none; */
     max-width: 470px;
+    min-width: 310px;
     position: fixed;
     top: -100%;
     left: 50%;
@@ -1359,11 +1359,24 @@ body {
     font-size: 18px;
     line-height: 18px;
     color: #000000;
-
 }
 
 
+@media (max-width:920px) {
+    .formModal__body {
+        padding: 20px 20px 20px 30px; 
+    }
+    .formModal__text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
 
+@media (max-width:425px) {
+    .formModal__body {
+        padding: 20px 10px 20px 20px; 
+    }
+}
 
 
 
