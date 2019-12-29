@@ -1296,11 +1296,14 @@ body {
     color: #A3A3A3;
     padding: 20px 20px 20px 40px;
 }
-.formContact__submit input {
+.formContact__submit a {
+    display: flex;
+    align-items: center;
+    height: 100%;
     font-size: 50px;
     line-height: 50px;
     color: #000000;
-    padding-right: 50px;
+    padding: 0px 40px;
     text-align: start;
     background: url(../img/icons/arrow\ right.png) 90% 50% no-repeat #fff;
     cursor: pointer;
@@ -1314,6 +1317,50 @@ body {
 }
 
 
+
+
+.formModal {
+    /* display: none; */
+    max-width: 470px;
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+}
+.formModal__body {
+    padding: 20px 40px 20px 50px;
+    background: #FFFFFF;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.formModal__text {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+.formModal__text p:last-child {
+    margin-top: 20px;
+}
+.formModal__button {
+    margin-top: 20px;
+    max-width: 240px;
+    height: 50px;
+    background: linear-gradient(180deg, #78A043 0%, #000 100%), rgba(239, 239, 239, 0.5);
+    padding: 3px;
+}
+.formModal__button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+
+}
 
 
 

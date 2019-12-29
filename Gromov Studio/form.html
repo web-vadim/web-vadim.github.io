@@ -8,7 +8,7 @@
     <title>Gromov Studio</title>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
 
     <div class="content">
 
@@ -47,7 +47,7 @@
                     </ul>
                 </nav>
                 <div class="header__button">
-                    <a class="header__button-link" href="">Напишите нам</a>
+                    <a class="header__button-link" href="contact.html" target="_self">Напишите нам</a>
                 </div>
             </div>
             </div>
@@ -77,7 +77,7 @@
             <div class="formService__row">
                 <div class="formService__column">
                     <div class="formService__item">
-                        <a href="#">Сайт</a>
+                        <a href="#" >Сайт</a>
                     </div>
                 </div>
                 <div class="formService__column">
@@ -171,8 +171,8 @@
                     <div class="formContact__social">
                         <input type="text" placeholder="Другие месенджеры">
                     </div>
-                    <div class="formContact__submit">
-                        <input type="submit" value="Отправить">
+                    <div class="formContact__submit" id="formSubmit">
+                        <a href="" id="formSubmit">Отправить</a>
                     </div>
                     <div class="formContact__subtext">
                         Нажимая на кнопку «Отправить», вы даёте согласие на обработку своих персональных данных
@@ -209,7 +209,28 @@
         </div>
     </div>
     </footer>
+
+    
+
+
+
+
 </div>
+
+
+<div class="formModal" id="formModal"> 
+    <div class="formModal__body">
+        <div class="formModal__text">
+            <p>Ваша заявка сейчас находиться в обработке <br> В ближайшее время с вами свяжется спецалист</p>
+            <p>Копия заявки была отправленна вам на эллектронную почту</p>
+        </div>
+        <div class="formModal__button">
+            <a href="form.html" id="formClose">Продолжить</a>
+        </div>
+    </div>
+</div>
+
+   
 
     <script src="js/script.js"></script>
 </body>
