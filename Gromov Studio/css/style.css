@@ -62,6 +62,9 @@ body {
     height: 1px;
     background-color: #CFCFCF;
 }
+.w-100 {
+    width: 100%;
+}
 .content {
     flex: 1 0 auto;
     padding: 100px 0px 0px 0px;
@@ -1172,6 +1175,7 @@ body {
 }
 .formTask__input {
     max-width: 920px;
+    height: 350px;
     border-radius: 6px;
     background: linear-gradient(180deg, #78A043 0%, #000 100%), rgba(239, 239, 239, 0.5);
     margin: 90px 0px 0px 20px;
@@ -1179,8 +1183,9 @@ body {
 }
 .formTask__input textarea {
     width: 100%;
+    height: 100%;
     border-radius: 6px;
-    padding: 40px 40px 270px 40px;
+    padding: 40px 0px 0px 40px;
     font-size: 36px;
     line-height: 36px;
     color: #A3A3A3;
@@ -1226,7 +1231,7 @@ body {
     margin-top: 30px;
 }
 .formContact__name input {
-    content: '';
+    /* content: ''; */
     background: url(../img/icons/*.png)5px top no-repeat #fff;
 }
 .formContact__email {
@@ -1237,7 +1242,7 @@ body {
     margin-top: 30px;
 }
 .formContact__email input {
-    content: '';
+    /* content: ''; */
     background: url(../img/icons/*.png) 1% top no-repeat,
                 url(../img/icons/gmail.png) 98% center no-repeat #fff;
 }
@@ -1307,7 +1312,6 @@ body {
     text-align: start;
     background: url(../img/icons/arrow\ right.png) 90% 50% no-repeat #fff;
     cursor: pointer;
-
 }
 .formContact__subtext {
     font-size: 18px;
@@ -1315,6 +1319,283 @@ body {
     color: #969696;
     margin-top: 20px;
 }
+
+
+
+
+@media (max-width:1024px) {
+    .formPage {
+        background: none;
+    }
+    .formOrder__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .formOrder__text {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .formService__title {
+        font-size: 48px;
+        line-height: 48px;
+        color: #000000;
+    }
+    .formService__item a {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .formBudget__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .formBudget__input input {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .formTask__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .formTask__input textarea {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formTask__file label {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .formContact__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .formContact input {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formContact__submit a {
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
+@media (max-width:768px) {
+   
+    
+}
+@media (max-width:595px) {
+    .formOrder__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formOrder__text {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .formService__item {
+        height: 70px;
+    }
+    .formService__column {
+        flex: 0 0 50%;
+        padding: 0px 5px;
+    }
+    .formService__column:nth-child(3),
+    .formService__column:nth-child(4),
+    .formService__column:nth-child(5),
+    .formService__column:nth-child(6) {
+    margin-top: 15px;
+    }
+    .formService {
+        padding: 50px 0px;
+    }
+    .formService__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .formService__row {
+        margin: 50px -5px 0px -5px;
+    }
+    .formService__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formService__item a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+
+    .formBudget {
+        padding: 50px 0px;
+    }
+    .formBudget__input {
+        max-width: 920px;
+        height: 70px;
+        margin: 50px 0px 0px 0px;
+    }
+    .formBudget__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formBudget__input input {
+        font-size: 24px;
+        line-height: 24px;
+        padding-left: 20px;
+    }
+
+    .formTask {
+        padding: 50px 0px;
+    }
+    .formTask__input {
+        max-width: 920px;
+        height: 150px;
+        margin: 50px 0px 0px 0px;
+    }
+    .formTask__file {
+        margin: 20px 0px 0px 0px;
+    }
+    .formTask__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formTask__input textarea {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 20px 0px 0px 20px;
+    }
+    .formTask__file label {
+        font-size: 36px;
+        line-height: 36px;
+        padding: 20px 90px 20px 0px;
+    }
+
+    .formContact {
+        padding: 50px 0px;
+    }
+    .formContact__body {
+        max-width: 920px;
+        margin: 40px 0px 0px 0px;
+    }
+    .formContact__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formContact input {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .formContact__submit a {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .formContact__name, .formContact__email,
+    .formContact__social, .formContact__submit {
+        height: 70px;
+    }
+    .formContact__social input {
+        background: url(../img/icons/whatsapp.png) 72% 50% no-repeat,
+                    url(../img/icons/vk.png) 85% 50% no-repeat,
+                    url(../img/icons/discord.png) 98% 50% no-repeat #fff;
+    }
+    .formContact__telegram {
+        height: 75px;
+    }
+    .formContact__skype {
+        height: 75px;
+    }
+    .formContact__submit a {
+        padding: 0px 70px;
+        background: url(../img/icons/arrow\ right.png) 80% 50% no-repeat #fff;
+    }
+}
+
+@media (max-width:425px) {
+    .formContact input {
+        padding: 20px 20px 20px 20px;
+    }
+    .formContact__row {
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .formContact__column {
+        padding: 0px 0px;
+    }
+    .formContact__skype {
+        margin-top: 30px;
+    }
+    .formContact__social input {
+       background-size: 10%;
+    }
+    .formContact__name input {
+        background: url(../img/icons/*.png) 5px top / 3% no-repeat #fff;
+    }
+    .formContact__email input {
+        background: url(../img/icons/*.png) 1% top / 3% no-repeat,
+                    url(../img/icons/gmail.png) 98% center / 10% no-repeat #fff;
+    }
+    .formContact__telegram input {
+        background-size: 10%;
+    }
+    .formContact__skype input {
+        background-size: 10%;
+    }
+}
+
+@media (max-width:375px) {
+    .formService__column {
+        flex: 0 0 100%;
+        padding: 0px 5px;
+    }
+    .formService__column {
+    margin-top: 15px;
+    }
+    .formBudget__input input {
+        font-size: 22px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+    .formContact__social input {
+        background: url(../img/icons/whatsapp.png) 76% 50% / 10% no-repeat,
+                    url(../img/icons/vk.png) 88% 50% / 10% no-repeat,
+                    url(../img/icons/discord.png) 99% 50% / 10% no-repeat #fff;
+    }
+    .formContact__submit a {
+        padding: 0px 40px;
+        background: url(../img/icons/arrow\ right.png) 80% 50% no-repeat #fff;
+    }
+}
+@media (max-width:320px) {
+   
+    .formService__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .formBudget__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .formBudget__input input {
+        font-size: 18px;
+        line-height: 18px;
+        padding-left: 10px;
+    }
+    .formContact__submit a {
+        padding: 0px 20px;
+        background: url(../img/icons/arrow\ right.png) 90% 50% / 20% no-repeat #fff;
+    }
+    .formContact__social input {
+        background: url(../img/icons/whatsapp.png) 98% top / 8% no-repeat,
+                    url(../img/icons/vk.png) 98% center / 8% no-repeat,
+                    url(../img/icons/discord.png) 98% bottom / 8% no-repeat #fff;
+    }
+}
+
+
 
 
 
@@ -1340,7 +1621,10 @@ body {
     line-height: 18px;
     color: #000000;
 }
-.formModal__text p:last-child {
+.formModal__text-1 span {
+    display: none;
+}
+.formModal__text-2 {
     margin-top: 20px;
 }
 .formModal__button {
@@ -1375,6 +1659,12 @@ body {
 @media (max-width:425px) {
     .formModal__body {
         padding: 20px 10px 20px 20px; 
+    }
+    .formModal__text-1 span {
+        display: inline-block;
+    }
+    .w-100 {
+        display: none;
     }
 }
 

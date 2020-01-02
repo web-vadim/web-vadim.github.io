@@ -26,15 +26,11 @@ document.getElementById('burger').onclick = function() {
       formClose = document.querySelector('formClose');
 
       formToggle.onclick = function() {
-      // formModal.style.display="block";
       formModal.style.top="30%";
       document.getElementById('wrapper').style.visibility="hidden";
       document.getElementsByTagName('body')[0].style.backgroundColor="#e5e5e5";
       document.getElementsByTagName('body')[0].style.overflow="hidden";
       return false; 
-      };
-      formClose.onclick = function () {
-        // formModal.style.display="none";
       };
 
 

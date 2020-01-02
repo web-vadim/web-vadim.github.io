@@ -131,7 +131,6 @@
             <div class="container">
                 <div class="formTask__title">Описание задачи</div>
                 <div class="formTask__input">
-                    <!-- <input type="textarea" placeholder="Опишите в данном поле вашу задачу"> -->
                     <textarea name="" id="" cols="" rows="" placeholder="Опишите в данном поле вашу задачу"></textarea>
                 </div>
                 <div class="formTask__file">
@@ -221,8 +220,17 @@
 <div class="formModal" id="formModal"> 
     <div class="formModal__body">
         <div class="formModal__text">
-            <p>Ваша заявка сейчас находиться в обработке <br> В ближайшее время с вами свяжется спецалист</p>
-            <p>Копия заявки была отправленна вам <br> на эллектронную почту</p>
+            <div class="formModal__text-1">
+                Ваша заявка сейчас находиться в обработке<span>.</span> 
+                    <div class="w-100"></div> 
+                В ближайшее время с вами свяжется спецалист
+            </div>
+            <div class="formModal__text-2">
+                <div class="w-100"></div>
+                 Копия заявки была отправленна вам 
+                <div class="w-100"></div> 
+                на эллектронную почту
+            </div>
         </div>
         <div class="formModal__button">
             <a href="form.html" id="formClose">Продолжить</a>
