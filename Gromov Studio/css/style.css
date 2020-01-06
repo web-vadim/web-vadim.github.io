@@ -1252,6 +1252,7 @@ body {
 }
 .formContact__column {
     padding: 0px 15px;
+    flex: 0 0 50%;
 }
 .formContact__telegram {
     height: 100px;
@@ -1368,6 +1369,9 @@ body {
         line-height: 36px;
     }
 
+    /* .formContact__column {
+        flex: 0 0 50%;
+    } */
     .formContact__title {
         font-size: 48px;
         line-height: 48px;
