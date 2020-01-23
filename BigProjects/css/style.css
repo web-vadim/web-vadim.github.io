@@ -395,6 +395,10 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
     }
 }
 @media (max-width:375px) {
+     .proj {
+    margin-top: calc(100vh + 100px);
+    padding: 0px 0px 50px 0px;
+}
     .proj-row {
         width: 100%;
     }
